@@ -1,0 +1,71 @@
+'Sheets("Inventaire").Select
+    'Rows("2:2").Select
+    'Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
+    'Sheets("Formulaire d'inventaire").Select
+    'Range("D5").Select
+    'Selection.Copy
+    'Sheets("Inventaire").Select
+    'Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+     '   :=False, Transpose:=False
+    'Sheets("Formulaire d'inventaire").Select
+    'Range("D7").Select
+    'Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("Inventaire").Select
+    Range("B2").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Range("A59").Select
+    Sheets("Formulaire d'inventaire").Select
+    Range("D9").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("Inventaire").Select
+    Range("C2").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("Formulaire d'inventaire").Select
+    Range("D11").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("Inventaire").Select
+    Range("D2").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("Formulaire d'inventaire").Select
+    Range("D13").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("Inventaire").Select
+    Range("E2").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("Formulaire d'inventaire").Select
+    Range("D15").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("Inventaire").Select
+    Range("F2").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("Formulaire d'inventaire").Select
+    Range("D17").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("Inventaire").Select
+    Range("G2").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("Formulaire d'inventaire").Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    Range("D15").Select
+    Selection.ClearContents
+    Range("D13").Select
+    Selection.ClearContents
+    Range("D11").Select
+    Selection.ClearContents
+    Range("D9").Select
+    Selection.ClearContents
+    Range("D7").Select
+    Selection.ClearContents
